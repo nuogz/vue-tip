@@ -1,9 +1,10 @@
-import './index.css';
+import './src/index.css';
 
 import { createApp } from 'vue';
 import Tippy from 'tippy.js';
 
-import Tips from './index.vue';
+import TipsComponent from './src/index.vue';
+
 
 
 const toPlacement = bind => {
@@ -119,12 +120,16 @@ const toOption = bind => {
 };
 
 
-export const install = app => {
+/**
+ * @param {import('vue').App} app
+ * @returns {Promise<void>}
+ */
+export const install = async app => {
 	app.provide('$tip', props => {
 		const elTippy = document.createElement('div');
 		document.body.insertBefore(elTippy, document.body.children[0]);
 
-		const appTippy = createApp(Tips, props);
+		const appTippy = createApp(TipsComponent, props);
 		appTippy.config.globalProperties.Tippy = Tippy;
 		appTippy.config.globalProperties.$app = appTippy;
 		appTippy.config.globalProperties.$elTippy = elTippy;
