@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.1.1 - 2023.08.30 10
+* (break) update color-related CSS variables
+* bump up dependencies
+
+
 ## v1.1.0 - 2023.05.31 15
 * add declaration files and improve inline jsdoc
 * use eslint flat config, and related config udpate

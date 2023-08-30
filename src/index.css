@@ -5,16 +5,16 @@
 	padding: 0;
 }
 .tippy-box[data-theme~='nob'][data-placement^='top'] > .tippy-arrow::before {
-	border-top-color: #1faaf1;
+	border-top-color: var(--cMain);
 }
 .tippy-box[data-theme~='nob'][data-placement^='bottom'] > .tippy-arrow::before {
-	border-bottom-color: #1faaf1;
+	border-bottom-color: var(--cMain);
 }
 .tippy-box[data-theme~='nob'][data-placement^='left'] > .tippy-arrow::before {
-	border-left-color: #1faaf1;
+	border-left-color: var(--cMain);
 }
 .tippy-box[data-theme~='nob'][data-placement^='right'] > .tippy-arrow::before {
-	border-right-color: #1faaf1;
+	border-right-color: var(--cMain);
 }
 
 

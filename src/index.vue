@@ -11,6 +11,10 @@
 </template>
 
 <script>
+	import './index.pcss';
+
+
+
 	export default {
 		props: {
 			// 依附的目标元素
