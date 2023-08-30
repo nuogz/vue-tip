@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v1.1.1 - 2023.08.30 10
+## v1.1.2 - 2023.08.30 10
 * (break) update color-related CSS variables
 * bump up dependencies
 
