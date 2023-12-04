@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.1.3 - 2023.12.04 17
+* tweak some enviroment
+* bump up dependencies
+
+
 ## v1.1.2 - 2023.08.30 10
 * (break) update color-related CSS variables
 * bump up dependencies
