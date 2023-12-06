@@ -1,7 +1,12 @@
 # CHANGELOG
 
+## v1.1.4 - 2023.12.06 14
+* tweak enviroment
+* bump up dependencies
+
+
 ## v1.1.3 - 2023.12.04 17
-* tweak some enviroment
+* tweak enviroment
 * bump up dependencies
 
 
